@@ -1,0 +1,76 @@
+body{
+  background: #000;
+}
+
+#map{
+  width: 500px;
+  height: 500px;
+  border: 10px solid darkgreen;
+}
+
+#map div{
+float: left;
+}
+#map .mario{
+  width: 48px;
+  height: 48px;
+  background-image: url(icons/mario.png);
+  padding: 1px;
+  background-position: center;
+}
+#map .corn{
+  width: 48px;
+  height: 48px;
+  background-image: url(icons/corn.png);
+  padding: 1px;
+  background-position: center;
+}
+#map .bug{
+  width: 48px;
+  height: 48px;
+  background-image: url(icons/bug.png);
+  padding: 1px;
+  background-position: center;
+}
+
+#map .empty{
+  width: 48px;
+  height: 48px;
+  border: 1px solid white;
+}
+#score{
+  height: 99px;
+  width: 99px;
+  border: 1px solid red;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+#gameover{
+  width: 500px;
+  height: 500px;
+  border: 10px solid darkgreen;
+  background: url(icons/gameover.jpg) no-repeat center center;
+  background-size: contain;
+}
+#rules{
+  background: linear-gradient(white,lightgray,gray);
+  float: right;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+#rules h1{
+  text-align: center;
+}
+#rules li{
+  text-decoration: underline red;
+  padding: 10px;
+}
+.clear{
+  clear: both;
+}
+button{
+  font-size: 20px;
+  padding: 10px 30px;
+  color: red;
+}
